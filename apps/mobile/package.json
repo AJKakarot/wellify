@@ -1,0 +1,25 @@
+{
+  "name": "@health-tracker/mobile",
+  "private": true,
+  "main": "expo/AppEntry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@health-tracker/api-client": "file:../../packages/api-client",
+    "@health-tracker/design-tokens": "file:../../packages/design-tokens",
+    "@health-tracker/types": "file:../../packages/types",
+    "expo": "^53.0.0",
+    "expo-status-bar": "^2.0.0",
+    "react": "^19.0.0",
+    "react-native": "^0.79.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "typescript": "^5.9.0"
+  }
+}
