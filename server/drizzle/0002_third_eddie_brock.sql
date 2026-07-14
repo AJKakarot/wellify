@@ -1,0 +1,1 @@
+ALTER TABLE "log_entry" ALTER COLUMN "type" SET DEFAULT 'health_log';
